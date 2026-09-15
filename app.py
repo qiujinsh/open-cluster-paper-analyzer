@@ -1,7 +1,4 @@
-#### `app.py`
-这是整合了本地 JSON 存储、arXiv 检索和 PDF 翻译的完整代码。
 
-```python
 import streamlit as st
 import arxiv
 import fitz  # PyMuPDF
