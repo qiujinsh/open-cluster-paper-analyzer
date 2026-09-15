@@ -11,7 +11,7 @@ import os
 
 # ================= 配置区 =================
 # 请填入你的 Gemini API Key
-genai.configure(api_key="YOUR_GEMINI_API_KEY")
+genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
 model = genai.GenerativeModel('gemini-1.5-flash')
 
 DB_FILE = "papers_db.json"
